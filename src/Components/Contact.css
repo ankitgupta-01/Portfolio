@@ -1,0 +1,91 @@
+html {
+  scroll-behavior: smooth;
+}
+.contact {
+  padding: 80px 10%;
+  background: #0a0a0b;
+  color: white;
+  width: 70vw;
+}
+.contact-title {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #8a67e9;
+  margin-bottom: 50px;
+}
+
+.contact-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 40px;
+}
+
+/* LEFT */
+.contact-info h3 {
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+}
+
+.contact-info p {
+  margin-bottom: 10px;
+  color: #cbd5f5;
+}
+
+/* FORM */
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  background: #1e293b;
+  color: white;
+  font-size: 1rem;
+}
+
+/* BUTTON */
+.contact-form button {
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  background: #8a67e9;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.contact-form button:hover {
+  background: #a78bfa;
+  transform: scale(1.05);
+}
+
+.social-links {
+  margin-top: 20px;
+  display: flex;
+  gap: 20px;
+}
+
+.social-links a {
+  font-size: 1.8rem;
+  color: #8a67e9;
+  transition: 0.3s ease;
+}
+
+/* 🔥 HOVER EFFECT */
+.social-links a:hover {
+  color: #e46eda;
+  transform: translateY(-5px) scale(1.2);
+}
+
+@media (max-width: 768px) {
+  .social-links a {
+    font-size: 5vw;
+  }
+}
