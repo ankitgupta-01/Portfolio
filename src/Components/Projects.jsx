@@ -12,7 +12,7 @@ const projectData = [
     title: "Guest House Booking",
     desc: "Booking system with UI design and responsive layout.",
     tech: ["React.js", "Node.js", "Mongodb"],
-    link: "#",
+    link: "https://github.com/ankitgupta-01/Guest-House-Booking",
   },
 //   {
 //     title: "E-commerce UI",
