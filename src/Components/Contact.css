@@ -27,9 +27,9 @@ html {
 }
 
 .contact-info p {
-  margin-bottom: 10px;
+  margin-bottom: 1vw;
   color: #cbd5f5;
-  font-size: 1.6vw;
+  font-size: 1.4vw;
 }
 /* FORM */
 .contact-form {
@@ -78,6 +78,15 @@ html {
   transition: 0.3s ease;
 }
 
+.email-link {
+    color: #a0b5e6;
+    text-decoration: none;
+  }
+
+  .email-link:hover {
+    color: rgb(117, 117, 179);
+  }
+
 /* 🔥 HOVER EFFECT */
 .social-links a:hover {
   color: #e46eda;
@@ -85,13 +94,33 @@ html {
 }
 
 @media (max-width: 768px) {
+
+   .nav {
+    background-color: #000;
+    padding: 1.9vw 3vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
   .social-links a {
     font-size: 5vw;
   }
-}
 
-.contact-info p {
-  margin-bottom: 10px;
-  color: #cbd5f5;
-  font-size: 2.4vw;
-}
+  .contact-info p {
+    margin-bottom: 2vw;
+    color: #fff;
+    font-size: 2.9vw;
+  }
+
+ .text h1 {
+    font-size: 3vw;
+    padding: 3vw 0vw;
+  }
+
+
+  }
+
+  

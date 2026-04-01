@@ -75,8 +75,8 @@ useEffect(() => {
   {/* <span className="c2">I’m </span>{" "} */}
   <span className="c1">Ankit Gupta</span>
 </h1>
-   <div className="t2">
-       <span className="highlight">MERN Stack</span> Full Stack Developer who builds fast, scalable, <br /> and user-friendly web applications.
+   <div className="t2"> I'm 
+       <span className="highlight"> MERN Stack</span> Full Stack Developer who builds fast, scalable, <br /> and user-friendly web applications.
       From designing responsive <br />frontends to developing robust backend systems.
     </div>
     </div>

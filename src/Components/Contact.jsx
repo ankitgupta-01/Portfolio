@@ -3,6 +3,7 @@ import "./Contact.css";
 import { FaInstagram, FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
 
 const Contact = () => {
+
   const [status, setStatus] = useState("");
 
   const handleSubmit = async (e) => {
@@ -31,6 +32,7 @@ const Contact = () => {
       <h2 className="contact-title">Contact Me</h2>
 
       <div className="contact-container">
+
         {/* LEFT SIDE */}
         <div className="contact-info">
           <h3>Let's Connect..</h3>
@@ -38,48 +40,47 @@ const Contact = () => {
             I'm open to freelance, internships, and full-time opportunities.
           </p>
 
-          <p>
-            Email: <a href="mailto:[EMAIL_ADDRESS]">ankitjgupta57@gmail.com</a>
-          </p>
+          <p>Email: <a href="mailto:[EMAIL_ADDRESS]">ankitjgupta57@gmail.com</a></p>
           <p>Location: India</p>
 
           {/* 🔥 SOCIAL LINKS */}
           <div className="social-links">
-            <a
-              href="https://www.linkedin.com/in/ankitgupta01ai/"
-              target="_blank"
-              rel="noreferrer"
-            >
+
+            <a href="https://www.linkedin.com/in/ankitgupta01ai/" target="_blank" rel="noreferrer">
               <FaLinkedin />
             </a>
 
-            <a
-              href="https://github.com/ankitgupta-01"
-              target="_blank"
-              rel="noreferrer"
-            >
+            <a href="https://github.com/ankitgupta-01" target="_blank" rel="noreferrer">
               <FaGithub />
             </a>
 
-            <a
-              href="https://www.instagram.com/ankit_gupta.01?utm_source=qr&igsh=YTNraXQ1czl3bGhz"
-              target="_blank"
-              rel="noreferrer"
-            >
+            <a href="https://www.instagram.com/ankit_gupta.01?utm_source=qr&igsh=YTNraXQ1czl3bGhz" target="_blank" rel="noreferrer">
               <FaInstagram />
             </a>
 
             {/* <a href="ankitjgupta57@gmail.com">
               <FaEnvelope />
             </a> */}
+
           </div>
         </div>
 
         {/* RIGHT SIDE FORM */}
         <form className="contact-form" onSubmit={handleSubmit}>
-          <input type="text" name="name" placeholder="Your Name" required />
 
-          <input type="email" name="email" placeholder="Your Email" required />
+          <input
+            type="text"
+            name="name"
+            placeholder="Your Name"
+            required
+          />
+
+          <input
+            type="email"
+            name="email"
+            placeholder="Your Email"
+            required
+          />
 
           <textarea
             name="message"
@@ -92,7 +93,9 @@ const Contact = () => {
 
           {/* 🔥 STATUS MESSAGE */}
           {status && <p className="status">{status}</p>}
+
         </form>
+
       </div>
     </section>
   );
